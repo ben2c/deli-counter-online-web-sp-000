@@ -6,7 +6,7 @@ def line (array)
     puts "The line is currently empty."
   else
     array.each { |x|
-      str += "#{count}. #{x}"
+      str += "#{count}. #{x} "
       count +=1
     }
     puts str
