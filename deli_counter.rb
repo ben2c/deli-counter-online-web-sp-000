@@ -9,6 +9,6 @@ def line (array)
       str += "#{count}. #{x}"
       count +=1
     }
-    return str
+    puts str
   end
 end
