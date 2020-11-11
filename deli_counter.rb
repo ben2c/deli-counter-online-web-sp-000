@@ -4,6 +4,7 @@ def line (array)
   count = 1
   if array.length == 1
     puts "The line is currently emtpy."
+  end
   else
     array.each { |x|
       str.join("#{count}. #{x}")
