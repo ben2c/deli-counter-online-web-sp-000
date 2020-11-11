@@ -5,7 +5,7 @@ def line (array)
   if array.length == 0
     puts "The line is currently empty."
   end
-  if array.length >1
+  if array.length >0
     array.each { |x|
       str.join("#{count}. #{x}")
       count +=1
