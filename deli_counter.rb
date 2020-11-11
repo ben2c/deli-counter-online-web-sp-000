@@ -1,8 +1,8 @@
 # Write your code here.
 def line (array)
-  str = 'The line is currently: '
+  str = "The line is currently: "
   count = 1
-  if array.length == 0
+  if array.length == 1
     puts "The line is currently emtpy."
   else 
     array.each { |x|
