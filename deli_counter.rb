@@ -7,7 +7,7 @@ def line (array)
   end
   if array.length >0
     array.each { |x|
-      str.join("#{count}. #{x}")
+      str.push("#{count}. #{x}")
       count +=1
     }
     return str
