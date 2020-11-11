@@ -3,7 +3,7 @@ def line (array)
   str = "The line is currently: "
   count = 1
   if array.length == 1
-    puts "The line is currently emtpy."
+    puts "The line is currently empty."
   end
   if array.length >1
     array.each { |x|
